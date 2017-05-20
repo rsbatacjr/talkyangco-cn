@@ -106,7 +106,7 @@
 								<p>
 									Yangco Center<br>
 									Tel : +63-74-442-6012<br>
-									주소 : #37 yangco Rd., Upper General Luna Rd., Baguio City, 2600 Philippines<br>
+									Address : #37 yangco Rd., Upper General Luna Rd., Baguio City, 2600 Philippines<br>
 									President Kenneth : +63-917-568-9161
 								</p>
 							</div>
@@ -114,7 +114,7 @@
 								<p>
 									EnE Center<br>
 									Tel : +63-74-442-6012<br>
-									주소 : Lot A, Dacanay Building, Marcos Highway, Baguio City, 2600 Philippines<br>
+									Address : Lot A, Dacanay Building, Marcos Highway, Baguio City, 2600 Philippines<br>
 									President Louis : +63-917-688-8656
 								</p>
 							</div>

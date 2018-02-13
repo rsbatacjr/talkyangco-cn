@@ -16,25 +16,25 @@ get_header();
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.cn/yangco-esl/">
 								<strong>口语课程</strong>
 								<p>ESL 521</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.cn/toeic/">
 								<strong>职业申请</strong>
 								<p>强化 TOEIC</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.cn/ielts/">
 								<strong>大学&amp;移民</strong>
 								<p>强化 IELTS</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.cn/family-esl/">
 								<strong>家庭课程</strong>
 								<p>家庭 ESL</p>
 							</div>
@@ -46,7 +46,7 @@ get_header();
 			</div>
 		</div>
 		<div id="about-container" class="col-xs-12 col-sm-6 col-md-4">
-			<div id="about">
+			<div id="about"  onclick="javascript:window.location = 'http://3d.jesolution.co.kr/canitalk/talk_yangco/';">
 				<div class="mask">
 					<h2>关于TALK</h2>
 					<div id="about-normal">
@@ -66,7 +66,7 @@ get_header();
 			</div>
 		</div>
 		<div id="experience-container" class="col-xs-12 col-sm-6 col-md-4">
-			<div id="experience">
+			<div id="experience"  onclick="javascript:window.location = 'http://talk-academy.cn/experiences/';">
 				<div class="mask">
 					<h2>学生经历</h2>
 					<div id="experience-normal">
@@ -86,6 +86,7 @@ get_header();
 	<div class="row">
 		<div id="notice-container" class="col-xs-12 col-md-4">
 			<div id="notice">
+				<a href="http://talk-academy.cn/notice/" style="text-decoration: none; color: #fff;">
 				<strong>公告</strong>
 				<p>
 					在学习Talk之前，您可以查看TALK的消息。 这将有助于您决定在TALK学院学习英语
@@ -95,12 +96,11 @@ get_header();
 						<div class="col-xs-12">
 							<span id="notice-plus">+</span>
 							<span class="next-button"></span>
+						</a>
 						</div>
 					</div>
 					<ul id="notice-list">
-						<li><a href="#">5월 입학가능일 안내</a></li>
-						<li><a href="#">노용이 화난 날(Warning)</a></li>
-						<li><a href="#">노용이 소리 질른 날..ㅋㅋ</a></li>
+						<?php do_shortcode('[show_topThree post_type="news"]'); ?>
 					</ul>
 				</div>
 			</div>
@@ -119,8 +119,9 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
+											<a style="color:#666" href='http://talk-academy.cn/ielts-test/'>
 											<p>让我们一起为进入大学做准备或者移民。TALK帮助你达到理想的雅思成绩. </p>
-											<span class="next-button-black"></span>
+											<span class="next-button-black"></span></a>
 										</div>
 									</div>
 								</div>
@@ -131,8 +132,9 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
+											<a style="color:666" href='http://talk-academy.cn/intensive-speaking/'>
 											<p>即使你擅长语法和词汇，但是你的发音还不完美，我们建议你上我们的强化口说课程.</p>
-											<span class="next-button-black"></span>
+											<span class="next-button-black"></span></a>
 										</div>
 									</div>
 								</div>
@@ -143,8 +145,9 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
+											<a style="color:#666" href='http://talk-academy.cn/short-term-study/'>
 											<p>如果您没有足够的时间学习英语或不了解英语学习方式，我们会引导您一步步学习英语..</p>
-											<span class="next-button-black"></span>
+											<span class="next-button-black"></span></a>
 										</div>
 									</div>
 								</div>
@@ -159,8 +162,9 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
+											<a href="http://talk-academy.cn/toeic-test/">
 											<p>让我们借助TALK学院高效的获得TOEIC成绩。 第一所在菲律宾开办TOEIC成绩保证班的学校</p>
-											<span class="next-button-black"></span>
+											<span class="next-button-black"></span></a>
 										</div>
 									</div>
 								</div>
@@ -171,8 +175,9 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
+											<a href="http://talk-academy.cn/philippines-and-other-countries/">
 											<p>如果你感觉到，在你开始上大学之前，你需要学习英语，为什么不和我们一起学习英语？</p>
-											<span class="next-button-black"></span>
+											<span class="next-button-black"></span></a>
 										</div>
 										
 									</div>
@@ -184,8 +189,9 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
+											<a href="http://talk-academy.cn/best-price/">
 											<p>你觉得学费是贵吗？<br>我们为学习者提供了英语课程的预算。<br>只需联系我们</p>
-											<span class="next-button-black"></span>
+											<span class="next-button-black"></span></a>
 										</div>
 									</div>
 								</div>
@@ -201,12 +207,11 @@ get_header();
 		<div id="best-place-container" class="col-xs-12 col-md-4">
 			<div id="best-place">
 				<div class="mask">
+					<a href="http://talk-academy.cn/travel/" style="text-decoration: none;color: #fff;">
 					<strong>旅游的最佳地点</strong>
-					<div id="best-place-list-container">
+					<div id="best-place-list-container"></a>
 						<ul id="best-place-list">
-							<li><a href="#">碧瑶</a></li>
-							<li><a href="#">一日游游览路线</a></li>
-							<li><a href="#">1-2日游游览路线</a></li>
+							<?php do_shortcode('[show_topThree post_type="travel"]'); ?>
 						</ul>
 					</div>
 				</div>
@@ -214,12 +219,11 @@ get_header();
 		</div>
 		<div id="campaign-container" class="col-xs-12 col-md-4">
 			<div id="campaign">
+				<a href="http://talk-academy.cn/campaigns/" style="text-decoration: none;">
 				<strong>竞技</strong>
-				<div id="campaign-list-container">
+				<div id="campaign-list-container"></a>
 					<ul id="campaign-list">
-						<li><a href="#">与欧美外教一起准备IELTS</a></li>
-						<li><a href="#">12周内TOEIC提高300分</a></li>
-						<li><a href="#">TALK学校官方TOEIC考试免费</a></li>
+						<?php do_shortcode('[show_topThree post_type="campaign"]'); ?>
 					</ul>
 				</div>
 			</div>
@@ -232,12 +236,12 @@ get_header();
 						<div class="col-xs-12">
 							<div class="calendar-list-parent col-xs-6" style="border-right:1px solid #666; border-bottom: 1px solid #666">
 								<div class="calendar-list">
-									<p><br>菲律宾假日</p>
+									<p style="padding-top: 15px;"><a style="color:#666;" href='http://talk-academy.cn/philippine-holiday/'>菲律宾假日</a></p>
 								</div>
 							</div>
 							<div class="calendar-list-parent col-xs-6" style=" border-bottom: 1px solid #666">
 								<div class="calendar-list">
-									<p><br>官方接机日</p>
+									<p><a style="color:#666;" href='http://talk-academy.cn/official-pick-up-dates/'>官方接机日</a></p>
 								</div>
 							</div>
 						</div>
@@ -246,12 +250,12 @@ get_header();
 						<div class="col-xs-12">
 							<div class="calendar-list-parent col-xs-6" style="border-right:1px solid #666">
 								<div class="calendar-list">
-									<p><br>IELTS <br>官方考试日期</p>
+									<p><br><a style="color:#666;" href='http://talk-academy.cn/ielts-official-test-dates/'>IELTS <br>官方考试日期</a></p>
 								</div>
 							</div>
 							<div class="calendar-list-parent col-xs-6">
 								<div class="calendar-list">
-									<p><br>TOEIC<br>官方考试日期</p>
+									<p><br><a style="color:#666;" href='http://talk-academy.cn/toeic-official-test-dates/'>TOEIC<br>官方考试日期</a></p>
 								</div>
 							</div>
 						</div>
